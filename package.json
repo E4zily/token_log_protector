@@ -1,0 +1,38 @@
+{
+  "name": "discord",
+  "version": "1.0.0",
+  "description": "Decompiles Discord in order to slow down and (or) stop token loggers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "comingsoon"
+  },
+  "keywords": [
+    "token",
+    "logger",
+    "protection",
+    "token",
+    "logger",
+    "protection"
+  ],
+  "author": "pluto",
+  "license": "ISC",
+  "bin": "./index.js",
+  "pkg": {
+    "assets": [
+      "./node_modules",
+      "./index.js"
+    ]
+  },
+  "dependencies": {
+    "@node_js/movedir": "^1.0.2",
+    "asar": "^3.2.0",
+    "colors": "^1.4.0",
+    "open": "^8.4.0",
+    "prompt-sync": "^4.2.0",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
